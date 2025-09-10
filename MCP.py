@@ -1,4 +1,4 @@
- def MCP_neuron(inputs, weights, threshold):
+def MCP_neuron(inputs, weights, threshold):
     total = sum(i*w for i, w in zip(inputs, weights))
     return 1 if total >= threshold else 0
 
